@@ -1,0 +1,44 @@
+.clear {
+    clear: both;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1440px;
+    height: 100px;
+    background-color: #DA8698;
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
+
+    #copyright {
+        margin-left: 5%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        p {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+
+    #made-by {
+        margin-right: 5%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+
+        p {
+            font-size: 13px;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+            
+        }
+    }
+}

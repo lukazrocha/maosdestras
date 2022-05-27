@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    max-width: 1440px;
+    height: 70px;
+    background-color: #7ACFCA;
+    position: fixed;
+    z-index: 1;
+}
